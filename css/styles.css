@@ -1,0 +1,25 @@
+.menu-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.coffee-and-tea-menu  ul li,
+.desserts-and-cakes-menu ul li{
+    display: flex;    
+}
+
+.coffee-and-tea-menu .menu-seperator-img,
+.desserts-and-cakes-menu .menu-seperator-img {
+    align-self: center;
+}
+
+.coffee-and-tea-menu  ul li img,
+.desserts-and-cakes-menu ul li img {    
+    width: 45px;
+    padding: 0 25px 0 25px;   
+}
+
+.coffee-and-tea-menu .menu-item-title,
+.desserts-and-cakes-menu .menu-item-title{
+    width: 200px;
+}
